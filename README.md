@@ -1,29 +1,26 @@
 # 🎂 CrumbEngine
 
-API para administrar un negocio de pastelería personalizada: catálogo de recetas,
+Sistema para administrar un negocio de pastelería personalizada: catálogo de recetas,
 gestión de pedidos por encargo, control de cupos por fecha y cálculo de costos e
 inventario de insumos.
 
 > **Estado:** 🚧 En construcción — Fase 1 (núcleo en memoria).
-> Proyecto de aprendizaje que crece siguiendo el
-> [roadmap de Backend Developer](https://roadmap.sh/backend).
-
 ## ¿Qué resuelve?
 
 Cuando hacés pastelería por encargo, el problema real no es la cocina: es
-**no sobrevenderte**, **saber cuánto ganás por torta** y **no quedarte sin insumos**.
+**no sobrevenderte**, **saber cuánto ganás por producto** y **no quedarte sin insumos**.
 CrumbEngine modela justamente eso:
 
-- **Constructor de pedidos:** el cliente arma su torta (tamaño, bizcochuelo, relleno,
+- **Constructor de pedidos:** el cliente arma su producto (tamaño, bizcochuelo, relleno,
   cobertura); el sistema valida que la combinación sea posible y calcula el precio.
 - **Cupos por fecha:** limita cuántos pedidos aceptás por día para no saturar la cocina
   (clave en fechas pico: San Valentín, Día de la Madre).
 - **Costos e inventario:** al confirmar un pedido, descuenta los ingredientes del stock
   y calcula el costo real frente al precio de venta.
-
+- Y Probablemente muchas cosas mas que se se vera en el proceso!!!!!
 ## Roadmap del proyecto
 
-Cada fase agrega una capa del roadmap de backend:
+Cada fase agrega una capa del roadmap:
 
 | Fase | Entrega | Conceptos |
 |------|---------|-----------|
@@ -46,7 +43,3 @@ Cada fase agrega una capa del roadmap de backend:
 ## Autora
 
 **Luz Aruquipa** — [@LuzAruU](https://github.com/LuzAruU)
-
-## Licencia
-
-[MIT](LICENSE)
