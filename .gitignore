@@ -1,0 +1,29 @@
+# Binarios y ejecutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+crumbengine
+crumbengine.exe
+
+# Archivos de test
+*.test
+*.out
+coverage.*
+
+# Dependencias de vendoring (si se usara)
+/vendor/
+
+# Variables de entorno y secretos
+.env
+.env.local
+*.local
+
+# Archivos de editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
